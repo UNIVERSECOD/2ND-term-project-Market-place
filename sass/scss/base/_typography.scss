@@ -4,22 +4,124 @@
     @include work-sans;
 }
 
-.tablet-hero-heading h4 {
+.section-headline h5 {
     @include work-sans;
-    font-size: 67px;
+    font-size: 28px;
 }
 
-.tablet-hero-heading p {
+.section-headline p {
     @include work-sans;
-    font-size: 22px;
+    font-size: 16px;
+}
+
+ h4 {
+    @include work-sans;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+ p {
+    @include work-sans;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .info h5 {
     @include work-sans;
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .info p {
     @include space-mono;
-    font-size: 24px;
+    font-size: 16px;
+}
+
+
+// signup 
+
+input {
+    font-weight: 400;
+    @include background-card-color;
+    @include work-sans;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+
+@media (max-width: 375px) {
+    .tablet-hero-heading h4 {
+        @include work-sans;
+        font-size: 67px;
+    }
+    
+    .tablet-hero-heading p {
+        @include work-sans;
+        font-size: 22px;
+    }
+    
+
+}
+
+@media (min-width: 375px) and (max-width: 834px) {
+    .tablet-hero-heading h4 {
+        @include work-sans;
+        font-size: 67px;
+    }
+    
+    .tablet-hero-heading p {
+        @include work-sans;
+        font-size: 22px;
+    }
+    
+   
+}
+
+@media (min-width: 834px) and (max-width: 1280px) {
+    .tablet-hero-heading h4 {
+        @include work-sans;
+        font-size: 67px;
+    }
+    
+    .tablet-hero-heading p {
+        @include work-sans;
+        font-size: 22px;
+    }
+    
+   
+}
+
+@media (min-width: 1280px) {
+
+    .section-headline h5 {
+        @include work-sans;
+        font-size: 32px;
+    }
+    
+    .section-headline p {
+        @include work-sans;
+        font-size: 28px;
+    }
+
+    .tablet-hero-heading h4 {
+        @include work-sans;
+        font-size: 67px;
+    }
+    
+    .tablet-hero-heading p {
+        @include work-sans;
+        font-size: 22px;
+    }
+    
+    .info h5 {
+        @include work-sans;
+        font-size: 26px;
+    }
+    
+    .info p {
+        @include space-mono;
+        font-size: 24px;
+    }
 }
