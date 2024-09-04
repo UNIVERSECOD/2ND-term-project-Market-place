@@ -1,0 +1,25 @@
+
+* {
+    @include whiteColor;
+    @include work-sans;
+}
+
+.tablet-hero-heading h4 {
+    @include work-sans;
+    font-size: 67px;
+}
+
+.tablet-hero-heading p {
+    @include work-sans;
+    font-size: 22px;
+}
+
+.info h5 {
+    @include work-sans;
+    font-size: 26px;
+}
+
+.info p {
+    @include space-mono;
+    font-size: 24px;
+}
