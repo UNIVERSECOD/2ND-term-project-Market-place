@@ -1,20 +1,23 @@
 // BASE
-@import url( ../scss/base/_mixins.scss);
-@import url( ../scss/base/_typography.scss);
-@import url( ../scss/base/_utilities.scss);
-@import url( ../scss/base/_variable.scss);
+@import "../scss/base/_reset.scss";
+@import "../scss/base/_mixins.scss";
+@import "../scss/base/_typography.scss";
+@import "../scss/base/_utilities.scss";
+@import "../scss/base/_variable.scss";
+
 
 // Pages
-@import url( ../scss/pages/_home.scss);
-@import url( ../scss/pages/_marketplace.scss);
-@import url( ../scss/pages/_signin.scss);
-@import url( ../scss/pages/_signup.scss);
+@import "../scss/pages/_home.scss";
+@import "../scss/pages/_marketplace.scss";
+@import "../scss/pages/_signin.scss";
+@import "../scss/pages/_signup.scss";
 
 // Components
-@import url( ../scss/components/_buttons.scss);
-@import url( ../scss/components/_cards.scss);
-@import url( ../scss/components/_forms.scss);
-@import url( ../scss/components/_navbars.scss);
+@import "../scss/components/_buttons.scss";
+@import "../scss/components/_cards.scss";
+@import "../scss/components/_forms.scss";
+@import "../scss/components/_navbars.scss";
+
 
 
 
